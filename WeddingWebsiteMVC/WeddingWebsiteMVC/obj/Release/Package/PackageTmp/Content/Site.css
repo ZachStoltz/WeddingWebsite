@@ -1,0 +1,354 @@
+﻿@media screen and (max-width: 760px) {
+    div.col-xs-12 > img {
+        width: 100% !important;
+    }
+    .carousel-indicators{
+        visibility: hidden !important;
+    }
+    hr{
+        visibility:visible !important;
+    }
+    div #map-canvas{
+        visibility: hidden !important;
+        display: none;
+    }
+    .direction-desktop{
+        visibility: hidden;
+        display:none;
+    }
+    .mobile-only{
+        visibility: visible !important;
+        display: inline-block !important;
+    }
+    div.mobile-only a.mobile-only{
+        display:block !important;
+    }
+}
+
+html,body{
+   background-color: #000023 !important;
+    height:auto;
+    max-height:100%;
+}
+hr{
+    visibility: hidden;
+}
+#container{
+    min-height: 100%;
+    position:relative;
+}
+#header{
+    height: 100px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive, "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color:hotpink;
+}
+
+#body{
+    width:100%;
+    padding:10px;
+    margin:0;
+    padding-bottom: 80px;
+    height:auto;
+}
+
+#footer{
+    opacity:0.4; 
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 30px;
+    padding-left: 5px;
+    background-color: #ffffff;
+    border-top: solid #DEDEDE;
+}
+#footer p img{
+    width:70px; 
+    height:30px; 
+    float: right; 
+    display: inline-block;
+}
+div.c-wrapper{
+   width:100%;
+   margin:auto;
+   border: solid #DEDEDE medium;
+}
+.carousel {
+  height: 100%;
+}
+.our-story-img{
+    border: solid #DEDEDE medium;
+    margin-bottom: .75em;
+}
+
+figure img.wedding-party, img.lion-shrine {
+    margin: 0 10px 0 10px;
+    max-width: 100%;
+    border: solid #DEDEDE medium;
+}
+#header .top-header{
+    font-size: 50px;
+    border-bottom: dashed medium #DEDEDE;
+    margin-bottom: -15px;
+}
+#header .bottom-header{
+    margin-top: -15px;
+    font-size:25px;
+}
+.info-box{
+    background-color: #ffffff;
+    border:2px solid hotpink;
+    padding: 10px 10px 10px 10px;
+    margin:0;
+}
+
+.info-box ul li {
+    list-style: none;
+}
+
+h3 span{
+    text-decoration: underline;
+}
+.row h2{
+    color:hotpink;
+    text-align: center;
+}
+.centered-text{
+    text-align: center;
+    font-size: 1.2em !important;
+}
+#map-canvas{
+    height:300px;
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+.row{
+    max-height:100%;
+}
+.direction-btn{
+    visibility: hidden;
+    display: none;
+}
+.direction-mobile-text{
+    visibility: hidden;
+    display: none;
+}
+.mobile-only{
+    display: none;
+}
+.apple-app-link{
+    overflow:hidden;
+    background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;
+    width:135px;
+    height:45px;
+}
+.android-app-link{
+    overflow: hidden;
+    background: url(https://developer.android.com/images/brand/en_app_rgb_wo_45.png) no-repeat;
+    width:129px;
+    height:45px;
+}
+.panel-info > .panel-heading {
+    color: #000023;
+    background-color: hotpink;
+    border-color: #DEDEDE;
+}
+
+.navbar-nav > li > a :hover{
+    text-decoration:underline;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+  border-bottom:2px solid hotpink;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+.detailBox {
+    width:100%;
+    border:2px solid hotpink;
+    overflow:auto;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding: 10px 5px;
+    border-top:1px dotted #bbb;
+    background-color:white;
+}
+.taskDescription {
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
+.commentList {
+    padding:0 0 10px;
+    list-style:none;
+    overflow:auto;
+    background-color:white;
+    margin-bottom:0;
+    height:400px;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    margin-top: -10px;
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding: 0 10px;
+    background-color:white;
+}
+.entry{
+  padding-bottom:1em;
+  background-color:white;
+  border-bottom:2px solid hotpink;
+}

@@ -1,0 +1,10 @@
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\WeddingWebsite.Models.dll.config
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\WeddingWebsite.Models.dll
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\WeddingWebsite.Models.pdb
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\EntityFramework.dll
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\EntityFramework.xml
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\obj\Debug\WeddingWebsite.Models.dll
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\obj\Debug\WeddingWebsite.Models.pdb
+C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Models\obj\Debug\WeddingWebsite.Models.csprojResolveAssemblyReference.cache

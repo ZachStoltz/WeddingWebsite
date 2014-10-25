@@ -1,0 +1,44 @@
+﻿@section AddToHead{
+<style>
+    .pink{
+        color:hotpink;
+    }
+</style>
+}
+@section header{
+    <span class="top-header">Zachary & Erica</span>
+    <br />
+    <span class="bottom-header">July 25th, 2015 </span>
+}
+@{
+    ViewBag.Title = "Share Your Photos";
+}
+
+<div class="info-box lead centered-text">
+    <p>
+        If you know Erica, she loves pictures and capturing
+        <a id="tooltip" href="#" rel="tooltip" title="Memories" data-placement="right">MEMs</a> through photos.
+        Please share all of the photos you have from the wedding (and leading up to the event) through the Wed Pics app or through WebPics.com!
+        <br />
+        <div>
+            <div class="row text-left">
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
+                    <div class="thumbnail pull-left">
+                        <a title="Wedding ID: stoltzwedding15" href="https://www.wedpics.com/wedding/NjA4MTk3/album/">
+                            <img src="~/Images/wedpics.png" alt="Wedding ID: stoltzwedding15" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+                    Just download the app or go to the website and enter our Wedding ID:
+                    <strong class="pink">stoltzwedding15</strong> to start uploading and viewing all of the shared photos!
+                </div>
+            </div>
+        </div>
+
+    </p>
+    <a class="mobile-only apple-app-link" href="https://itunes.apple.com/us/app/wedpics-wedding-app-gather/id549402355?mt=8&uo=4"
+       target="itunes_store"></a>
+    <a class="mobile-only android-app-link" href="https://play.google.com/store/apps/details?id=com.dejami.WedPics"></a>
+</div>
+

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="StoltzWeddingTest" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Zach\\Documents\\Visual\ Studio\ 2012\\Projects\\WeddingWebsiteMVC\\WeddingWebsiteMVC\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Zach\\Documents\\Visual\ Studio\ 2012\\Projects\\WeddingWebsiteMVC\\WeddingWebsiteMVC\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:usxghj4x4n.database.windows.net,1433;Initial Catalog=StoltzApps;User ID=Stoltzy409@usxghj4x4n;Password=Butthead00!!00" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Zach\\Documents\\Visual\ Studio\ 2012\\Projects\\WeddingWebsiteMVC\\WeddingWebsiteMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
