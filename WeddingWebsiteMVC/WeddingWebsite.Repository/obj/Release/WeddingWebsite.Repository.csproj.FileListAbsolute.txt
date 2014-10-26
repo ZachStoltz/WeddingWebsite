@@ -14,3 +14,19 @@ C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWeb
 C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.csproj.GenerateResource.Cache
 C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.dll
 C:\Users\Zach\Documents\Visual Studio 2012\Projects\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.pdb
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\WeddingWebsite.Repository.dll.config
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\WeddingWebsite.Repository.dll
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\WeddingWebsite.Repository.pdb
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\EntityFramework.dll
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\WeddingWebsite.Models.dll
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\WeddingWebsite.Models.pdb
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\EntityFramework.xml
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.csprojResolveAssemblyReference.cache
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.Migrations.initialmigration.resources
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.Migrations.addingTimestampProperty.resources
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.Migrations.redoTimestampName.resources
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.csproj.GenerateResource.Cache
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.dll
+C:\GitRepo\WeddingWebsite\WeddingWebsiteMVC\WeddingWebsite.Repository\obj\Release\WeddingWebsite.Repository.pdb
