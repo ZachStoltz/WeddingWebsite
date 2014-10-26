@@ -1,4 +1,5 @@
 ﻿@model WeddingWebsite.Models.Comment
+@using Recaptcha.Web.Mvc
 
 @section header{
     <span class="top-header">Zachary & Erica</span>
@@ -68,10 +69,21 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button id="submitFormBtn" class="glyphicon glyphicon-check btn btn-primary" data-loading-text="Submitting..."
-                                type="submit" formmethod="post">
-                            Submit
-                        </button>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                @Html.ValidationMessage("captchaError", new { @class = "alert-danger pull-left" })
+                            </div>
+                            <div class="col-lg-12">
+                                @Html.Recaptcha(theme: Recaptcha.Web.RecaptchaTheme.Clean)
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <button id="submitFormBtn" class="glyphicon glyphicon-check btn btn-primary pull-left" data-loading-text="Submitting..."
+                                    type="submit" formmethod="post">
+                                Submit
+                            </button>
+                        </div>
                     </div>
                 }
             </div>
@@ -79,3 +91,24 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+@section scripts{
+    <script>
+        $(function () {
+            $('#submitFormBtn').click(function () {
+                var $form = $('#commentForm');
+                
+                if ($form.valid()) {
+                    var btn = $(this);
+                    btn.button('loading');
+                    return true;
+                }
+            });
+        });
+    </script>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <script>
+            $("#commentModal").modal('show');
+        </script>
+    }
+}
